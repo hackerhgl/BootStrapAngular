@@ -1,0 +1,177 @@
+/*CSS*/
+body{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+header .form-group:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+header .form-group input{
+  width: 170px;
+  margin-right: 10px;
+}
+header .form-group input,.form-group .btn{
+  float: left;
+}
+
+footer{
+  color: #eee;
+  font-size: 11px;
+  padding: 20px 0;
+}
+
+footer ul{
+  padding: 0;
+  list-style: none;
+}
+
+#myCarousel{margin-top: 60px;}
+#myCarousel .item{height: 400px;}
+
+.well .page-header{
+  margin-top: 0;
+}
+
+.well .page-header h1{
+  margin-top: 0;
+}
+
+.alert{
+  margin-top: 20px;
+}
+
+#mAlert.ng-enter{
+  animation: 500ms fadeIn;
+}
+
+#mAlert.ng-leave{
+  animation: 500ms fadeOut;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+    transform:scale(0.95);
+  }
+  to{
+    opacity: 1;
+    transform:scale(1);
+  }
+}
+
+@keyFrames fadeOut{
+  from{
+    opacity: 1;
+    transform: scale(1);
+  }
+  to{
+    opacity: 0;
+    transform: scale(0.92)
+  }
+}
+
+.well{
+  margin: 20px 0;
+}
+
+.panel .alert{
+  margin: 15px auto 0 auto;
+}
+
+.row .col-sm-4 .panel img{
+  width: 80%;
+  margin: 0 10%;
+  border-radius: 50%;
+  box-shadow: 0 0 6px 2px rgba(0,0,0,0.2);
+}
+
+.row .col-sm-4 .panel{
+  text-align: center;
+}
+
+.row .col-sm-4 .panel p{
+  margin: 15px 0 10px 0;
+}
+
+.tab-content .tab-pane .thumbnail{
+  margin: 0 20px 10px 0;
+}
+
+#inputMessage{
+  margin-bottom: 15px;
+}
+
+.thumbnails{
+  margin: 20px 0;
+}
+
+.thumbnail{
+  position: relative;
+}
+
+.thumbnail h3{
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height: 20px;
+}
+
+.thumbnail .price{
+  font-size: 20px;
+  position: absolute;
+  top: -12px;
+  right:-12px;
+  padding: 10px;
+}
+
+#slide1{ background: url('https://dl.dropboxusercontent.com/s/peptu4cs5qmb9se/01.jpg') top center no-repeat; }
+#slide2{ background: url('https://dl.dropboxusercontent.com/s/raplyrzrmp41s86/02.jpg') top center no-repeat; }
+#slide3{ background: url('https://dl.dropboxusercontent.com/s/icuu8rnpg2mgt3a/03.jpg') top center no-repeat; }
+#slide4{ background: url('https://dl.dropboxusercontent.com/s/hjkpx3a2953hmv1/04.jpg') top center no-repeat; }
+#slide5{ background: url('https://dl.dropboxusercontent.com/s/0ig14u4smus7qdi/05.jpg') top center no-repeat; }
+#slide6{ background: url('https://dl.dropboxusercontent.com/s/jqme7d4fpbupmfk/06.jpg') top center no-repeat; }
+#slide7{ background: url('https://dl.dropboxusercontent.com/s/agdkpi6bc4wprg8/07.jpg') top center no-repeat; }
+
+@media (min-width: 1200px){
+  #myCarousel .item{height: 500px;}
+  #slide1{ background: url('https://dl.dropboxusercontent.com/s/vrdc1yk1h5i4lpt/01.jpg') top center no-repeat; }
+  #slide2{ background: url('https://dl.dropboxusercontent.com/s/sdzjun8bdxxt5p9/02.jpg') top center no-repeat; }
+  #slide3{ background: url('https://dl.dropboxusercontent.com/s/yx36j5kc1x9o2pb/03.jpg') top center no-repeat; }
+  #slide4{ background: url('https://dl.dropboxusercontent.com/s/j2r04gtx0pxr2ox/04.jpg') top center no-repeat; }
+  #slide5{ background: url('https://dl.dropboxusercontent.com/s/zhcngcruwtut002/05.jpg') top center no-repeat; }
+  #slide6{ background: url('https://dl.dropboxusercontent.com/s/ml9j5q2mq8ekrvl/06.jpg') top center no-repeat; }
+  #slide7{ background: url('https://dl.dropboxusercontent.com/s/1luk26aqitlquf9/07.jpg') top center no-repeat; }
+}
+
+@media (max-width: 768px){
+  .row .col-sm-4 .panel img{
+    width: 86%;
+    margin: 0 7%;
+  }
+
+  div.sm{
+    padding: 0;
+  }
+  div#mySlider.container{
+    width: 100%;
+  }
+  #myCarousel .item{
+    height: 310px;
+    background-size: auto 102%;
+  }
+  #slide1{ background: url('https://dl.dropboxusercontent.com/s/iqt5oe649zjqwd9/01.jpg') top center no-repeat; }
+  #slide2{ background: url('https://dl.dropboxusercontent.com/s/c2y8p2rbzbjbr8p/02.jpg') top center no-repeat; }
+  #slide3{ background: url('https://dl.dropboxusercontent.com/s/njc5fou9c6grk0x/03.jpg') top center no-repeat; }
+  #slide4{ background: url('https://dl.dropboxusercontent.com/s/5e408796iat8fuj/04.jpg') top center no-repeat; }
+  #slide5{ background: url('https://dl.dropboxusercontent.com/s/ezriv4exki6a6mj/05.jpg') top center no-repeat; }
+  #slide6{ background: url('https://dl.dropboxusercontent.com/s/96aoqgb29n8pmuh/06.jpg') top center no-repeat; }
+  #slide7{ background: url('https://dl.dropboxusercontent.com/s/eut7mxw3jww7xwz/07.jpg') top center no-repeat; }
+}
+
+@media (max-width: 480px){
+  .row .col-sm-4 .panel img{
+    width: 90%;
+    margin: 0 5%;
+  }
+}
